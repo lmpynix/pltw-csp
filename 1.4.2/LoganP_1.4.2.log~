@@ -1,0 +1,8 @@
+# IPython log file
+
+get_ipython().magic('pwd ')
+get_ipython().magic('logstart LoganP_1.4.2.log')
+import os.path as path
+path.abspath(__file__)
+path.abspath("./LoganP_1.4.2.py")
+get_ipython().magic('logstop')
